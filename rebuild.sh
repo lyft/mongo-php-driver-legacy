@@ -4,3 +4,4 @@ export CFLAGS="-Wall -Wextra -Wdeclaration-after-statement -Wmissing-field-initi
 phpize > /dev/null && \
 ./configure --with-mongo-sasl > /dev/null && \
 make clean && make all > /dev/null && make install
+
